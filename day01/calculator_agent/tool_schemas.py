@@ -5,7 +5,7 @@ TOOLS = [
         "function": {
             "name": "calculate_subtotal",
             "description": (
-                "Calculate the subtotal by multiplying "
+                "Calculate the subtotal by multiplying"
                 "the unit price by the quantity."
             ),
             "parameters": {

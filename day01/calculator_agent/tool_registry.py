@@ -8,7 +8,6 @@ from tools import (
     calculate_total,
 )
 
-
 # Only these functions are available to our agent.
 TOOL_REGISTRY = {
     "calculate_subtotal": calculate_subtotal,

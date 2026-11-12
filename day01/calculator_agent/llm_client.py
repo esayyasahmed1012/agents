@@ -29,7 +29,7 @@
 
 import requests
 
-from tool_schemas import TOOLS
+from calculator_agent.tool_schemas import TOOLS
 
 
 OLLAMA_URL = "http://localhost:11434/api/chat"
@@ -64,10 +64,7 @@ if __name__ == "__main__":
     messages = [
         {
             "role": "user",
-            "content": (
-                "Calculate the cost of 15 laptops "
-                "at $800 each."
-            )
+            "content": "Calculate the total not the subtotal with 15% vat cost for 15 laptops at $800 each."
         }
     ]
 
